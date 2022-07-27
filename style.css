@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+:root {
+    --color-White: hsl(0, 0%, 100%);
+    --color-Light-gray: hsl(212, 45%, 89%);
+    --color-Grayish-blue: hsl(220, 15%, 55%);
+    --color-Dark-blue: hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Outfix", sans-serif;
+    height: 800px;
+    background-color: var(--color-Light-gray);
+    display: flex;
+}
+
+.QR-code {
+    margin: auto;
+    background-color: var(--color-White);
+    width: 320px;
+    padding: 16px;
+    border-radius: 15px;
+}
+
+.QR-code__image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.QR-code__title {
+    margin-top: 30px;
+    color: var(--color-Dark-blue);
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.QR-code__desc {
+    margin-top: 20px;
+    margin-bottom: 28px;
+    text-align: center;
+    color: var(--color-Grayish-blue);
+}
